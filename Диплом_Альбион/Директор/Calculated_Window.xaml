@@ -1,0 +1,20 @@
+﻿<Window x:Class="Диплом_Альбион.Директор.Calculated_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Диплом_Альбион.Директор"
+        mc:Ignorable="d"
+        Title="Расчет суммы" Height="160" Width="220"
+        ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="TB_Цена" HorizontalAlignment="Left" Margin="109,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="TB_Колво" HorizontalAlignment="Left" Margin="109,43,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="82"/>
+        <Label Content="Цена за м²:" HorizontalAlignment="Left" Margin="38,13,0,0" VerticalAlignment="Top"/>
+        <Label Content="Кол-во м²:" HorizontalAlignment="Left" Margin="42,39,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Result" Content="Посчитать" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top" Click="Button_Result_Click"/>
+        <TextBox x:Name="TB_Итог" HorizontalAlignment="Left" Margin="109,67,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="82" IsReadOnly="True"/>
+        <Label Content="Итог:" HorizontalAlignment="Left" Margin="72,62,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

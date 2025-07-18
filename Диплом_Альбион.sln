@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Диплом_Альбион", "Диплом_Альбион\Диплом_Альбион.csproj", "{7136B605-396C-4B60-9E32-77F2A77B831A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7136B605-396C-4B60-9E32-77F2A77B831A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7136B605-396C-4B60-9E32-77F2A77B831A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7136B605-396C-4B60-9E32-77F2A77B831A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7136B605-396C-4B60-9E32-77F2A77B831A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D2D1F8-506A-41BE-B8EC-818D21358011}
+	EndGlobalSection
+EndGlobal

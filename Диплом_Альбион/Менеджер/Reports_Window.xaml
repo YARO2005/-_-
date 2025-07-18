@@ -1,0 +1,23 @@
+﻿<Window x:Class="Диплом_Альбион.Менеджер.Reports_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Диплом_Альбион.Менеджер"
+        mc:Ignorable="d"
+        Title="Создание отчета" Height="200" Width="300"
+        ResizeMode="NoResize">
+
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Отчеты" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Report" Content="Создать" HorizontalAlignment="Center" Margin="0,132,0,0" VerticalAlignment="Top" Width="120" Click="Button_Report_Click"/>
+        <TextBox x:Name="TB_Название" HorizontalAlignment="Left" Margin="136,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,24,0,0" TextWrapping="Wrap" Text="Название файла, без разширения:" VerticalAlignment="Top" Width="95"/>
+        <ComboBox x:Name="CB_Вид" HorizontalAlignment="Left" Margin="136,63,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="67,64,0,0" TextWrapping="Wrap" Text="Вид отчета:" VerticalAlignment="Top" Width="65"/>
+        <TextBox x:Name="TB_Путь" HorizontalAlignment="Left" Margin="136,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,95,0,0" TextWrapping="Wrap" Text="Путь к файлу:" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="button_указать_путь" HorizontalAlignment="Left" Margin="137,94,0,0" VerticalAlignment="Top" Width="119" Height="20" Click="button_указать_путь_Click" Opacity="0.2"/>
+
+    </Grid>
+</Window>
